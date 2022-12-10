@@ -1,0 +1,311 @@
+<html>
+<head> 
+<meta charset="UTF-8">
+<style>
+body {
+background-color: black;
+font-family: 'Roboto', sans-serif;
+}
+img {
+margin: auto;
+}
+h2 {
+margin: 30px auto;
+color: white;
+}
+h3 {
+float: left;
+color: white;
+}
+h4 {
+color:#333;
+margin: 5px;
+}
+label {
+color:white;
+margin: 20px auto;
+font-style:italic;
+text-decoration: underline;
+}
+#filmes img {
+height: 250px;
+width: 200px;
+}
+#filmes {
+text-align: center;
+}
+.row {
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+margin-left: -15px;
+margin-right: -15px;
+}
+.card {
+border: 1px solid red;
+}
+.col-item {
+padding-left: 15px;
+padding-right: 15px;
+}
+.col-12 {
+width: 100%;
+padding-left: 15px;
+padding-right: 15px;
+}
+.item {
+padding: 0 20px 30px 20px;
+}
+.item .bg-img {
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.item .bg-img img {
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+cursor: pointer;
+box-shadow: 0px -3px 15px 3px rgb(75, 75, 75);
+-webkit-box-shadow: 0px -3px 15px 3px rgb(75, 75, 75);
+border-radius: 0px -3px 15px 3px rgb(75, 75, 75);
+-moz-border-radius: 0px -3px 15px 3px rgb(75, 75, 75);
+margin-top: 20px;
+}
+.item .info {
+background-color: rgb(241, 241, 241);
+padding: 20px 0px 10px 10px;
+height: 80px;
+text-align: center;
+font-family: 'OpenSansBold';
+cursor: pointer;
+box-shadow: 0px 2px 15px 6px rgb(75, 75, 75);
+-webkit-box-shadow: 0px 2px 15px 6px rgb(75, 75, 75);
+border-radius: 0px 2px 15px 6px rgb(75, 75, 75);
+-moz-border-radius: 0px 2px 15px 6px rgb(75, 75, 75);
+border-top: none;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+@media (min-width:1351px) {
+.col-item {
+width: calc(20% - 40px);
+}
+}
+@media (min-width:1101px) and (max-width: 1350px) {
+.col-item {
+width: calc(25% - 40px);
+}
+}
+@media (min-width:901px) and (max-width: 1100px) {
+.col-item {
+width: calc(33% - 40px);
+}
+}
+@media (min-width:601px) and (max-width: 900px) {
+.col-item {
+width: calc(50% - 40px);
+}
+}
+@media (max-width: 600px) {
+.col-item {
+width: 100%;
+}
+.img-logo {
+width: 200px;
+height: 100px;
+}
+}
+</style>
+<title>Netflix</title>
+</head>
+<body>
+<div style="margin: 0 30px;">
+<div class="row">
+<img width="300" height="150" src="https://pmcvariety.files.wordpress.com/2017/07/netflix-logo.jpg?w=732&h=412&crop=1"/>
+</div>
+<div id="filmes" class="row">
+<div class="col-12">
+<h2>PRODUTOS</h2>
+</div>
+<div class="col-12">
+<h3>Em Destaque</h3>
+</div>
+<div class="col-item item">
+<a target="_blank" href="https://www.youtube.com/watch?v=Yj0l7iGKh8g">
+<div class="bg-img">
+<img src="https://cdn11.bigcommerce.com/s-lj8wphc2lt/images/stencil/500x659/products/396/1065/flashS4-Web__45313.1540833307.jpg?c=2&imbypass=on" style="width: 100%;" />
+</div>
+<div class="info">
+<h4>Flash</label>
+<h4>Ficcao Cientifica</label>
+<h4>12</label>
+</div>
+</a>
+</div>
+<div class="col-item item">
+<a target="_blank" href="https://www.youtube.com/watch?v=g6ng8iy-l0U">
+<div class="bg-img">
+<img src="http://br.web.img2.acsta.net/pictures/19/03/14/21/46/3495918.jpg" style="width: 100%;" />
+</div>
+<div class="info">
+<h4>Vingadores Ultimato</label>
+<h4>Ficcao Cientifica</label>
+<h4>16</label>
+</div>
+</a>
+</div>
+<div class="col-12">
+<h3>Produtos Cadastrados</h3>
+</div>
+<div class="col-item item">
+<a target="_blank" href="https://www.youtube.com/watch?v=Yj0l7iGKh8g">
+<div class="bg-img">
+<img src="https://cdn11.bigcommerce.com/s-lj8wphc2lt/images/stencil/500x659/products/396/1065/flashS4-Web__45313.1540833307.jpg?c=2&imbypass=on" style="width: 100%;" />
+</div>
+<div class="info">
+<h4>Flash</label>
+<h4>Ficcao Cientifica</label>
+<h4>12</label>
+</div>
+</a>
+</div>
+<div class="col-item item">
+<a target="_blank" href="https://www.youtube.com/watch?v=g6ng8iy-l0U">
+<div class="bg-img">
+<img src="http://br.web.img2.acsta.net/pictures/19/03/14/21/46/3495918.jpg" style="width: 100%;" />
+</div>
+<div class="info">
+<h4>Vingadores Ultimato</label>
+<h4>Ficcao Cientifica</label>
+<h4>16</label>
+</div>
+</a>
+</div>
+<div class="col-item item">
+<a target="_blank" href="https://www.youtube.com/watch?v=3POcPEtxhAU">
+<div class="bg-img">
+<img src="http://d1x4bjge7r9nas.cloudfront.net/wp-content/uploads/2019/03/13060436/foto-filme-opera%C3%A7%C3%A3o-fronteira-divulga%C3%A7%C3%A3o-netflix-2019.jpg" style="width: 100%;" />
+</div>
+<div class="info">
+<h4>Operacao Fronteira</label>
+<h4>Acao</label>
+<h4>14</label>
+</div>
+</a>
+</div>
+<div class="col-item item">
+<a target="_blank" href="https://www.youtube.com/watch?v=hMANIarjT50">
+<div class="bg-img">
+<img src="https://pbs.twimg.com/profile_images/856944760929562626/9rFniWt8.jpg" style="width: 100%;" />
+</div>
+<div class="info">
+<h4>La Casa de Papel</label>
+<h4>Acao</label>
+<h4>14</label>
+</div>
+</a>
+</div>
+<div class="col-item item">
+<a target="_blank" href="xfgnxfg">
+<div class="bg-img">
+<img src="dfhsdgxcbn" style="width: 100%;" />
+</div>
+<div class="info">
+<h4>joao</label>
+<h4>dfhfgd</label>
+<h4>18</label>
+</div>
+</a>
+</div>
+<div class="col-12">
+<h3>Originais</h3>
+</div>
+<div class="col-item item">
+<a target="_blank" href="https://www.youtube.com/watch?v=3POcPEtxhAU">
+<div class="bg-img">
+<img src="http://d1x4bjge7r9nas.cloudfront.net/wp-content/uploads/2019/03/13060436/foto-filme-opera%C3%A7%C3%A3o-fronteira-divulga%C3%A7%C3%A3o-netflix-2019.jpg" style="width: 100%;" />
+</div>
+<div class="info">
+<h4>Operacao Fronteira</label>
+<h4>Acao</label>
+<h4>14</label>
+</div>
+</a>
+</div>
+<div class="col-item item">
+<a target="_blank" href="https://www.youtube.com/watch?v=hMANIarjT50">
+<div class="bg-img">
+<img src="https://pbs.twimg.com/profile_images/856944760929562626/9rFniWt8.jpg" style="width: 100%;" />
+</div>
+<div class="info">
+<h4>La Casa de Papel</label>
+<h4>Acao</label>
+<h4>14</label>
+</div>
+</a>
+</div>
+<div class="col-12">
+<h2>ASSINANTES (FAVORITOS)</h2>
+</div>
+<div class="col-12">
+<h3>Joao da Silva</h3>
+</div>
+<div class="col-item item">
+<a target="_blank" href="https://www.youtube.com/watch?v=Yj0l7iGKh8g">
+<div class="bg-img">
+<img src="https://cdn11.bigcommerce.com/s-lj8wphc2lt/images/stencil/500x659/products/396/1065/flashS4-Web__45313.1540833307.jpg?c=2&imbypass=on" style="width: 100%;" />
+</div>
+<div class="info">
+<h4>Flash</label>
+<h4>Ficcao Cientifica</label>
+<h4>12</label>
+</div>
+</a>
+</div>
+<div class="col-item item">
+<a target="_blank" href="https://www.youtube.com/watch?v=g6ng8iy-l0U">
+<div class="bg-img">
+<img src="http://br.web.img2.acsta.net/pictures/19/03/14/21/46/3495918.jpg" style="width: 100%;" />
+</div>
+<div class="info">
+<h4>Vingadores Ultimato</label>
+<h4>Ficcao Cientifica</label>
+<h4>16</label>
+</div>
+</a>
+</div>
+<div class="col-12">
+<h3>Josefina Manoela</h3>
+</div>
+<div class="col-item item">
+<a target="_blank" href="https://www.youtube.com/watch?v=3POcPEtxhAU">
+<div class="bg-img">
+<img src="http://d1x4bjge7r9nas.cloudfront.net/wp-content/uploads/2019/03/13060436/foto-filme-opera%C3%A7%C3%A3o-fronteira-divulga%C3%A7%C3%A3o-netflix-2019.jpg" style="width: 100%;" />
+</div>
+<div class="info">
+<h4>Operacao Fronteira</label>
+<h4>Acao</label>
+<h4>14</label>
+</div>
+</a>
+</div>
+<div class="col-item item">
+<a target="_blank" href="https://www.youtube.com/watch?v=hMANIarjT50">
+<div class="bg-img">
+<img src="https://pbs.twimg.com/profile_images/856944760929562626/9rFniWt8.jpg" style="width: 100%;" />
+</div>
+<div class="info">
+<h4>La Casa de Papel</label>
+<h4>Acao</label>
+<h4>14</label>
+</div>
+</a>
+</div>
+<div class="col-12">
+<h3>jorge</h3>
+</div>
+<label> Nenhum Produto Favoritado!</label>
+</div>
+</div>
+</body>
+</html>

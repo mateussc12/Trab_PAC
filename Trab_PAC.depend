@@ -1,0 +1,262 @@
+# depslib dependency file v1.0
+1562013509 source:c:\users\monte\desktop\trab_pac_wtf__\assinante.cpp
+	"Assinante.h"
+
+1561720002 c:\users\monte\desktop\trab_pac_wtf__\assinante.h
+	<iostream>
+	<string>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"ProdutoAV.h"
+	"Filme.h"
+	"Serie.h"
+
+1561761850 c:\users\monte\desktop\trab_pac_wtf__\produtoav.h
+	<iostream>
+	<string>
+	<vector>
+	<fstream>
+	<cstdlib>
+
+1561720002 c:\users\monte\desktop\trab_pac_wtf__\filme.h
+	<iostream>
+	<string>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"ProdutoAV.h"
+
+1561720002 c:\users\monte\desktop\trab_pac_wtf__\serie.h
+	<stdlib.h>
+	<fstream>
+	<cstdlib>
+	"Temporada.h"
+	"ProdutoAV.h"
+
+1561720002 c:\users\monte\desktop\trab_pac_wtf__\temporada.h
+	<iostream>
+	<string>
+	<vector>
+	<fstream>
+	<cstdlib>
+
+1562012308 source:c:\users\monte\desktop\trab_pac_wtf__\filme.cpp
+	"Filme.h"
+
+1562013509 source:c:\users\monte\desktop\trab_pac_wtf__\main.cpp
+	<stdlib.h>
+	<unistd.h>
+	"Produtor.h"
+	"Plataforma.h"
+
+1561720002 c:\users\monte\desktop\trab_pac_wtf__\produtor.h
+	<stdlib.h>
+	<iostream>
+	<string>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"ProdutoAV.h"
+	"Filme.h"
+	"Serie.h"
+
+1561720002 c:\users\monte\desktop\trab_pac_wtf__\plataforma.h
+	<iostream>
+	<string>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"Produtor.h"
+	"Assinante.h"
+
+1561735306 source:c:\users\monte\desktop\trab_pac_wtf__\produtoav.cpp
+	"ProdutoAV.h"
+
+1562013092 source:c:\users\monte\desktop\trab_pac_wtf__\produtor.cpp
+	"Produtor.h"
+
+1561729034 source:c:\users\monte\desktop\trab_pac_wtf__\serie.cpp
+	"Serie.h"
+	"Temporada.h"
+
+1561722830 source:c:\users\monte\desktop\trab_pac_wtf__\temporada.cpp
+	"Temporada.h"
+
+1562014657 source:c:\users\monte\desktop\trab_pac_wtf__\plataforma.cpp
+	"Plataforma.h"
+
+1562013510 source:c:\users\mateus\desktop\ufes\pac\trab_pac\assinante.cpp
+	"Assinante.h"
+
+1561720002 c:\users\mateus\desktop\ufes\pac\trab_pac\assinante.h
+	<iostream>
+	<string>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"ProdutoAV.h"
+	"Filme.h"
+	"Serie.h"
+
+1561761850 c:\users\mateus\desktop\ufes\pac\trab_pac\produtoav.h
+	<iostream>
+	<string>
+	<vector>
+	<fstream>
+	<cstdlib>
+
+1561720002 c:\users\mateus\desktop\ufes\pac\trab_pac\filme.h
+	<iostream>
+	<string>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"ProdutoAV.h"
+
+1561720002 c:\users\mateus\desktop\ufes\pac\trab_pac\serie.h
+	<stdlib.h>
+	<fstream>
+	<cstdlib>
+	"Temporada.h"
+	"ProdutoAV.h"
+
+1561720002 c:\users\mateus\desktop\ufes\pac\trab_pac\temporada.h
+	<iostream>
+	<string>
+	<vector>
+	<fstream>
+	<cstdlib>
+
+1562012310 source:c:\users\mateus\desktop\ufes\pac\trab_pac\filme.cpp
+	"Filme.h"
+
+1562013510 source:c:\users\mateus\desktop\ufes\pac\trab_pac\main.cpp
+	<stdlib.h>
+	<unistd.h>
+	"Produtor.h"
+	"Plataforma.h"
+
+1561720002 c:\users\mateus\desktop\ufes\pac\trab_pac\produtor.h
+	<stdlib.h>
+	<iostream>
+	<string>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"ProdutoAV.h"
+	"Filme.h"
+	"Serie.h"
+
+1561720002 c:\users\mateus\desktop\ufes\pac\trab_pac\plataforma.h
+	<iostream>
+	<string>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"Produtor.h"
+	"Assinante.h"
+
+1562016146 source:c:\users\mateus\desktop\ufes\pac\trab_pac\plataforma.cpp
+	"Plataforma.h"
+
+1561735306 source:c:\users\mateus\desktop\ufes\pac\trab_pac\produtoav.cpp
+	"ProdutoAV.h"
+
+1562013094 source:c:\users\mateus\desktop\ufes\pac\trab_pac\produtor.cpp
+	"Produtor.h"
+
+1561729034 source:c:\users\mateus\desktop\ufes\pac\trab_pac\serie.cpp
+	"Serie.h"
+	"Temporada.h"
+
+1561722830 source:c:\users\mateus\desktop\ufes\pac\trab_pac\temporada.cpp
+	"Temporada.h"
+
+1581085058 source:c:\users\mateu\햞ea de trabalho\ufes\2 periodo\pac\trab_pac\assinante.cpp
+	"Assinante.h"
+
+1581085060 c:\users\mateu\햞ea de trabalho\ufes\2 periodo\pac\trab_pac\assinante.h
+	<iostream>
+	<string>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"ProdutoAV.h"
+	"Filme.h"
+	"Serie.h"
+
+1581085070 c:\users\mateu\햞ea de trabalho\ufes\2 periodo\pac\trab_pac\produtoav.h
+	<iostream>
+	<string>
+	<vector>
+	<fstream>
+	<cstdlib>
+
+1581085064 c:\users\mateu\햞ea de trabalho\ufes\2 periodo\pac\trab_pac\filme.h
+	<iostream>
+	<string>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"ProdutoAV.h"
+
+1581085072 c:\users\mateu\햞ea de trabalho\ufes\2 periodo\pac\trab_pac\serie.h
+	<stdlib.h>
+	<fstream>
+	<cstdlib>
+	"Temporada.h"
+	"ProdutoAV.h"
+
+1581085074 c:\users\mateu\햞ea de trabalho\ufes\2 periodo\pac\trab_pac\temporada.h
+	<iostream>
+	<string>
+	<vector>
+	<fstream>
+	<cstdlib>
+
+1581085060 source:c:\users\mateu\햞ea de trabalho\ufes\2 periodo\pac\trab_pac\filme.cpp
+	"Filme.h"
+
+1581085064 source:c:\users\mateu\햞ea de trabalho\ufes\2 periodo\pac\trab_pac\main.cpp
+	<stdlib.h>
+	<unistd.h>
+	"Produtor.h"
+	"Plataforma.h"
+
+1581085072 c:\users\mateu\햞ea de trabalho\ufes\2 periodo\pac\trab_pac\produtor.h
+	<stdlib.h>
+	<iostream>
+	<string>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"ProdutoAV.h"
+	"Filme.h"
+	"Serie.h"
+
+1581085070 c:\users\mateu\햞ea de trabalho\ufes\2 periodo\pac\trab_pac\plataforma.h
+	<iostream>
+	<string>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"Produtor.h"
+	"Assinante.h"
+
+1581085068 source:c:\users\mateu\햞ea de trabalho\ufes\2 periodo\pac\trab_pac\plataforma.cpp
+	"Plataforma.h"
+
+1581085070 source:c:\users\mateu\햞ea de trabalho\ufes\2 periodo\pac\trab_pac\produtoav.cpp
+	"ProdutoAV.h"
+
+1581085070 source:c:\users\mateu\햞ea de trabalho\ufes\2 periodo\pac\trab_pac\produtor.cpp
+	"Produtor.h"
+
+1581085072 source:c:\users\mateu\햞ea de trabalho\ufes\2 periodo\pac\trab_pac\serie.cpp
+	"Serie.h"
+	"Temporada.h"
+
+1581085074 source:c:\users\mateu\햞ea de trabalho\ufes\2 periodo\pac\trab_pac\temporada.cpp
+	"Temporada.h"
+
